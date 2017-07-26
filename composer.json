@@ -1,0 +1,19 @@
+{
+    "name": "daverandom/ssl=async-issue-demo",
+    "description": "SSL Async Issue Demo",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Chris Wright",
+            "email": "chris.wright@redstarfm.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "amphp/amp": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {"DaveRandom\\SslAsyncIssueDemo\\": "src/"}
+    }
+}
